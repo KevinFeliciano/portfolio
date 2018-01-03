@@ -2,40 +2,96 @@
         Kevin Feliciano */
 margin:0px; 
 padding:0px;
+padding-left:0px;
+padding-right:0px;
 
 
 
 
-font-family:'Montserrat',sans-serif;
+font-family:'Montserrat',sans-serif;   
 
-
-.page-header{
-    text-align: center;
     
-    
+{}
+
+.hero-image{
+    background-image: url(banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto; 
+    position:relative;
+    margin-bottom:0px; 
+    height:180px;
+    margin:auto; 
+}
+
+.hero-text{
+    text-align:center;
+    color:white;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size:55px;    
 }
 
 .navbar{
-    margin-bottom:0;
+    margin-bottom:0px;
+    text-align:center;
+    background-color:black;
+
+}
+
+
+.nav{
+    text-align:center; 
     
 }
-
+footer{
+    text-align:center;
+    background-color:black;
+    color:white;
 }
 
-.container{
-    padding:0;
-    margin:0;
-}
-
-.carousel-caption h1{
-    font-size:60px; 
+h1{
     text-align:center;
     
 }
 
-@media screen and (max-width: 750px){
-    
-    .carousel-caption h1{
-    font-size:20px; 
+h2{
     text-align:center;
+    font-weight:300;
+}
+
+h3{
+    font-weight:300;
+}
+
+hr{
+    width:50%;
+    
+}
+
+.top{
+    text-align:right;
+}
+
+@media screen and (max-width: 767px){
+    
+    .hero-text{
+        font-size:25px;
+    }
+    .hero-image{
+        height:120px;
+    }
+    
+    }
+
+@media screen and (max-width:500px){
+    .hero-text{
+        font-size:20px;
+    }
+    .hero-image{
+        height:100px;
+    }
+    
 }
