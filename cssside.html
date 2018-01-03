@@ -149,23 +149,95 @@
     
     </header>                
               <!-- Indhold start - Alt hvad der skal være på hver side, skal indsættes her -->
-              
-              
-              
-              <!--- Kilder -->
       
-      <div class="container">
+         <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                    <section>
+                        <h1>CSS</h1>
+                        <p>CSS handler om at kode designet og udseendet af et website. Grænserne for at hvad du kan kode, er blot din egen fantasi. CSS står for Cascading Style Sheets. </p>
+                        <p>CSS kan skrives direkte i et HTML dokument (embed), men det kan også skrives i et eksternt dokument, som HTML dokumentet linker til. </p>
+                        
+                    </section>
+                  </div>
+             </div>
+              
+             <div class="row">
+                <div class="col-xs-12">
+                    <section>
+                        <h2>CSS Syntaks</h2>
+                        <img src="csssyntaks.png" alt="css syntaks" style="width:100%";>
+                        <p>CSS-koden er delt op i nogle elementer. Det første man gør, er at vælge (select) hvad der skal styles på. I dette eksempel er det alle links, som ses ved ’a’.</p>
+                        <p>Herefter er der en deklaration, som starter med en krøllet parentes og slutter med tilsvarende. Deklarationen består af en egenskab og en værdi. I dette tilfælde drejer deklarationen sig om baggrundsfarven, som får værdien ’yellow’. Egenskaber sluttes med et ”semikolon”. </p>
+                        
+                        
+                    </section>
+                  </div>
+             </div>
+             
+             <div class="row">
+                <div class="col-xs-12">
+                    <section>
+                        <h2>Selectors</h2>
+                        <p>Selectors er dem som fortæller browseren, hvilket element i HTML dokumentet, der skal styles. De tre primære selectors er: type/element, id-selector og class selector</p>
+                        <p>Type/element er de almindelige tags som: p, h1, body osv. Id selectors er når et element, har fået et unikt navn. Denne selector bruges ved at lave et #navnpåID. Class selector bruges når vi gerne vil ramme flere elementer, som skal styles ens. Denne selector bruges ved at lave et punktum foran class navnet.</p>
+                        <p>Der findes derudover pseudo-class selector, som kun er gældende under nogle bestemte omstændigheder. Det kunne fx .klasse:hover – Her gælder deklarationene kun, når musen svæver over elementet. </p>
+                    </section>
+                  </div>
+             </div>
+             
+             <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <section>
+                        <h3>Strukturelle selectors</h3>  
+                        <p>Strukturelle selectors også kaldt combinator operators, er når vi vil vælge et element, som ligger inde i et element. Det kan fx descendant selectors (efterkommere). Med dette forstås det, at bruger vi eks. Nav a, er det fordi vi vælger ’a’ som er en efterkommer af ’nav’. </p>
+                    </section>
+                  </div>
+             
+             
+                <div class="col-xs-12 col-md-6">
+                    <section>
+                        <h3>Property</h3>  
+                        <p>Property fortæller, hvad det er for et aspekt på det valgte, der skal styles. Det kan fx være farver, størrelse, magin, padding og farve på tekst. </p>
+                        <h3>Value</h3>
+                        <p>Value er så værdien på den valgte property. Det kan være fx farven hvid, eller at tekststørrelsen skal være 10 px. </p>
+                    </section>
+                  </div>
+             </div>
+             
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Kaskaderegel</h2>
+                    <p>Kaskadereglerne har en hovedregel, som lyder på, at det der kommer sidst, er det der gælder. Så jeg kan fx starte med at definere tekstfarven hvid, men har jeg ændret det senere i dokumentet, så er den gamle regel om at tekstfarven skal være hvid, slettet. </p>
+                    <p>Men man kan gå udenom denne regel ved, at være mere specifik. Hvis jeg for eksempel siger, at alle overskrifter (h1) skal være røde, så kan jeg gøre nogle andre bestemte overskrifter blå, ved at overskrive den gamle regel, ved at give disse ”h1’er” en klasse som bestemmes til at være blå. Du kan derudover overskrive denne regel, ved at angive én bestemt ”h1” et ID. </p>
+                    <p>For at opsummere disse regler, så har seneste deklareringer forrang mod tidligere, men specificitet har forrang mod rækkefølgen. </p>
+                </div>
+             </div>
+             
+        <div class="row">
+                 <div class="top">
+                     <a href="#top">Gå til top</a>
+                     </div> 
+                </div>
+          
+          <hr class="style14"> 
+            </div>
+             
+             
+              </div>     <!--COntainer -->
+      
+        <div class="container">
               <div class="row">
                 <div class="col-xs-12">
                     <section>
                     <h6>Kilder:</h6>
-                        <p></p>   
+                    <p>Pro HTML: Kap 9-11 + 12-13</p>  
+                    <p>Niels Østergaard 'Intro til css.pdf</p>    
                     </section>
                   </div>
             </div>        
               
-          </div>         
-              
+          </div> 
               
               
               

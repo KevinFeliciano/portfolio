@@ -87,7 +87,33 @@ hr{
 #serverliste{
     list-style-position: inside;
 }
+#versionsliste{
+    list-style-position: inside;
+}
+#Githubliste{
+    list-style-position: inside;
+}
+#frameworksliste{
+    list-style-position: inside;
+}
+#fordeleliste{
+    list-style-position: inside;
+}
 
+#mono{
+    padding-bottom:10px;
+}
+
+#komple{
+    margin-bottom: -20px;
+    
+}
+
+#tetriader{
+    margin-top:-12px;
+    margin-bottom:-20px;
+    
+}
 
 @media screen and (max-width: 767px){
     
