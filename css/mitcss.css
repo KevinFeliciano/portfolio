@@ -114,6 +114,41 @@ hr{
     margin-bottom:-20px;
     
 }
+#farveidenti{
+    text-align:Center;
+}
+
+#histogram{
+    text-align:center;
+}
+
+#fyrtaarn{
+    text-align:Center;
+}
+
+#italic{
+    font-style:italic;
+}
+
+#bold{
+    font-weight:bold;
+}
+#bolditalic{
+    font-weight:bold;
+    font-style:italic;
+}
+
+#black{
+    font-weight:bolder;
+}
+
+#profil{
+    text-align:center;
+}
+
+#kundeopgaver{
+    text-align:Center;
+}
 
 @media screen and (max-width: 767px){
     
