@@ -150,24 +150,90 @@
     </header>                
               <!-- Indhold start - Alt hvad der skal være på hver side, skal indsættes her -->
               
+              
               <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <section>
-                            <h1>Brugercentreret metode</h1>
-                            <h2>Opgavebeskrivelse</h2>
-                            <p>I dette projekt, skulle vi stifte bekendtskab med brugercentreret metode, som opvarmning til det næste projekt, som var ”Prototyping”. 
-                            Vi fik nogle cases, og min gruppe og jeg endte med at tage Casen ”Hvad skal jeg have til aften” som havde denne essens. 
-                            </p>
-                            <div id="case">
-                            <p>EN VIRKSOMHED ØNSKER AT TILBYDE TJENESTE, DER GØR DET LETTERE AT FINDE PÅ HVAD MAN SKAL HAVE AT SPISE</p>
-                            <p>STIKORD: NÅR DU HAR GLEMT AT DET VAR DIN TUR I DAG, OG DER ER EN TIME TIL DE ANDRE FORVENTER MAD PÅ BORDET. NÅR MAN ER LØBET TØR FOR IDEER. NÅR MAN VIL PRØVE NOGET NYT. NÅR MAN FÅR GÆSTER. NÅR MAN VIL PLANLÆGGE I FORVEJEN. NÅR MAN VIL LEVE LIDT SUNDERE. NÅR DET SKAL VÆRE LÆKKERT. NÅR DET SKAL VÆRE LET...</p>
-                            <p>STEDER: I FOLKS KØKKENER. DER HVOR DE KØBER IND. DER HVOR DE BESTILLER/SPISER FASTFOOD NÅR DE IKKE FÅR LAVET MAD. FIND SELV PÅ FLERE GODE STEDER...</p>
+                            <h1>Licensiseringsmetoder</h1>
+                            <p>Licens handler om, når andre får lov under bestemte betingelser, at udnytte andres rettigheder. Det bygger på aftalefrihed til hel eller delvis overdragelse af rettigheder. </p>
+                            <h2>Softwarelicenser</h2>
+                              <hr class="style14"> 
+                            <p>Når du køber software (programmer, App mv) så køber du typisk brugsretten. Det eksempelvis være i en begrænset periode, som med eks. Adobe Creative Cloud. Der er oftest mange betingelser tilknyttet, og du må som regel ikke videre distribuere. Du næsten heller aldrig ”reverse engineer”, dvs. at lave om i programmerne. </p>
+                            <h2>Copyleft</h2>
+                            
+                              <hr class="style14"> 
+                            <p>Hvor mod copyright sikrer at værker kan kopieres, så sikrer copyleft at værker kan distribueres. Der er to typer styrke af copyleft. Når noget nedstammer fra stærkt-licenserede værker, skal de også være stærke, dvs. det kan aldrig trækkes tilbage. Værker der stammer svagt-licenserede værker kan distribueres under andre licenser. </p>
+                            <h2>Open source</h2>
+                            <p>Åben kildekode er en modreaktion mod de store softwareselskabers lukkethed. Dette er dog også under nogle licensbetingelser, men åben kildekode giver oftest ret til at rette, ændre, integrere i en anden software. At den er åben, betyder nødvendigvis ikke at det er gratis. </p>
+                            <h5>Typisk open source licenser </h5>
+                            <p>GNU (GNU Public License - GPL) - Stærk copyleft - Betegnes som en af de mest vidtgående for at sikre fri tilgængelighed </p>
+                            <p>Mozilla Public License (MPL) - Svag copyleft - Kræver offentliggørelse af kode - En mellemting mellem GNU og de øvrige  </p>
+                            <p>MIT -  Er relativ fri, men du skal ikke nødvendigvis offentliggøre din kode </p>
+                            <p>BSD - Som MIT, men har en “no endorsement” klausul - Populært: “Her er kildekoden, gør hvad du vil, men har du problemer er det dit problem  </p>
+                            <p>Apache license - Ikke så striks på offentliggørelse af kildekode som GNU, på linie med MIT og BSD </p>
+                            <h5>Sådan håndterer du open source licenser</h5>
+                            <p>Hver gang du overvejer at bruge noget andre har lavet skal du overveje: </p>
+                            <div id="fordeleliste">
+                                <ul>
+                                <li>Hvilke betingelser stilles det til rådighed under </li>
+                                <li> Vil jeg tilslutte mig disse betingelser </li>
+                                <li>Er kommercielt ok </li>
+                                <li>Skal jeg offentliggøre hele min kode</li>
+                                <li>...</li>
+                                
+                                </ul>
                             </div>
-                            <h2>Feltarbejde</h2> 
-                            <p>Vi skulle ud fra denne case opstille nogle problemstillinger og spørgsmål, som vi kunne stille folk på gaden. Vi skulle simpelthen ud og interviewe folk i samfundet. Vi fik sat noget tid af, og vi drog ned i Skive by og begyndte at udspørge de forskellige mennesker om deres madvaner og mv. </p>
-                            <h2>Opsamling</h2>
-                            <p>Efter feltarbejdet, skulle vi opsamle alt vores information som vi fik suget til os gennem vores interviews. Denne læring skulle så gennemarbejdes, så vi blev klogere på folk i deres situationer og diverse behov, de måtte have. Disse ”findings” skulle samles i en plakat. (Hvilket jeg desværre ikke har dokumentation på) </p>
+                            <p>Så skal du sikre dig at du opfylder betingelserne:
+                            <div id="fordeleliste">
+                            <ul>
+                                <li>Gengive licensbetingelser eks. ved at inkludere dem i repository </li>
+                                <li>eller som kommentar øverst i javascript-fil</li>
+                                <li>Passe på at du ikke kommer til at slette licensbetingelser </li>
+                                <li>Der findes organisationer som alene arbejder på at sikre at licensbetingelser opfyldes </li>
+                                </ul>
+                            
+                            </div>    
+                            
+                              <hr class="style14"> 
+                            
+                            <h2>Creative Commons CC</h2> 
+                            <p>Creative commons handler om at gør værker legalt tilgængelige til deling og modifikation, men det er også på gennemskuelige betingelser. Det er rettet mod alle de kreative brancher, men typisk foto, video, musik og tekst. </p>
+                            
+                            <h3>De fire elementer i Creative Commons</h3>
+                            
+                            <h4>Navngivelse</h4>
+                            <p>Du lader andre kopiere, distribuere, vise og anvende dit værk. Brugeren skal kreditere værket, på den måde ejeren har angivet.</p>
+                            
+                            <h4>Ikke-kommerciel</h4>
+                            <p>Det grunder i grundlaget for det ovenstående, men må kun bruges til ikke-kommercielle formål</p>
+                            
+                            <h4>Ingen bearbejdelse</h4>
+                            <p>Grundlag for den navngivelse, men brugeren må ikke modificere eller bygge videre på værket.</p>
+                            
+                            <h4>Del på sammee vilkår</h4>
+                            <p>Du lader andre bearbejde og bygge videre på værket, men må kun viderespredes under en identisk licens. </p>
+                            <h5>Disse fire elementer sættes sammen til seks. </h5>
+
+                            <img src=cc.png alt="creativecommons" style="width:100%;">
+                            <h4>BY:</h4>
+                            <p>Navn på indehaver</p>
+                            
+                            <h4>BY SA:</h4>
+                            <p>Navn på indehaver + man må lave om på det, men skal udgives under samme licens</p>
+                            
+                            <h4>BY NC</h4>
+                            <p>Navn på indehaver + andre må bruge, men ikke tjene på det</p>
+                            
+                            <h4>BY NC SA</h4>
+                            <p>Navn på indehaver +  må ændres , men under sammae licens + må bruges, men ikke tjene på det</p>
+                            
+                            <h4>BY ND</h4>
+                            <p>Navn på indehaver + andre må kopiere og bruge, men må ikke ændre og videreudvikle</p>
+                            
+                            <h4>BY NC ND</h4>
+                            <p>Navn på indehaver + andre må kopiere og bruge, men må ikke ændre og videreudvikle eller sælge og tjene på det.</p>
+                            
                             
                             
                             
@@ -176,7 +242,14 @@
                     </div>
                   </div>
                   
-                <hr class=style14>  
+                  <div class="top">
+                     <a href="#top">Gå til top</a>
+                     </div> 
+              
+            
+                          
+             <hr class="style14">  
+                  
                   
               </div>
               
@@ -184,7 +257,19 @@
               
               <!--- Kilder -->
       
-      
+      <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                    <section>
+                    <h6>Kilder:</h6>
+                        <p>creativecommons.org</p> 
+                        <p>licensiseringsmetoder.pdf</p>
+                    </section>
+                  </div>
+            </div>        
+              
+          </div>         
+              
               
               
               
